@@ -1,0 +1,25 @@
+CreateLinePlotFromMatrixExample.mlx 
+
+% HCI Pre Lecture Assignment 2 
+% Coding for the line graph of each customer's purchase 
+
+% Items purchased by customer Jason 
+% x-axis: the number of items purchased 
+$ y-axis: the price of each item purchased 
+
+jason = [1 2 3 2 2 1 1; 50 1000 35 26 29 16 29]
+
+% Plot the Jason Graph. 
+
+figure
+plot(jason) 
+
+% scaling for the graph.
+xlim([1.000, 2.000])
+ylim([1 1000])
+
+% Add some labels for the graph. 
+title('Selenium Shops Purchases From Customer Jason')
+% add the x-axis and y-axis captions 
+xlabel('Number of items purchased') 
+ylabel('The price of each item (in $)') 
